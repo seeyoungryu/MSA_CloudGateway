@@ -19,7 +19,6 @@ public class CustomPostFilter implements GlobalFilter, Ordered {
         return chain.filter(exchange).then(Mono.fromRunnable(() -> {
             ServerHttpResponse response = exchange.getResponse();
             logger.info("Post Filter: Response status code is " + response.getStatusCode());
-            // Add any custom logic here
         }));
     }
 
