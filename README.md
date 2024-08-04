@@ -204,7 +204,11 @@ public class PostFilter implements GlobalFilter, Ordered {
 }
 ```
 </details>
+
+
 ---
+
+
 ## 2. 보안 구성 (OAuth2 + JWT)
 
 ### 2.1 보안 개요
