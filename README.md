@@ -204,7 +204,7 @@ public class PostFilter implements GlobalFilter, Ordered {
 }
 ```
 </details>
-
+---
 ## 2. 보안 구성 (OAuth2 + JWT)
 
 ### 2.1 보안 개요
@@ -212,12 +212,10 @@ public class PostFilter implements GlobalFilter, Ordered {
 #### 2.1.1 보안의 중요성
 
 마이크로서비스 아키텍처에서는 각 서비스가 독립적으로 배포되고 통신하기 때문에 보안이 매우 중요합니다. 데이터 보호, 인증 및 권한 부여, 통신 암호화 등을 통해 시스템의 보안성을 확보해야 합니다.
-
+---
 ### 2.2 OAuth2 개요
 
-#### 2
-
-.2.1 OAuth2란?
+#### 2.2.1 OAuth2란?
 
 OAuth2는 ***토큰 기반의*** 인증 및 권한 부여 프로토콜입니다. 클라이언트 애플리케이션이 리소스 소유자의 권한을 얻어 보호된 리소스에 접근할 수 있도록 합니다. OAuth2는 네 가지 역할을 정의합니다: 리소스 소유자, 클라이언트, 리소스 서버, 인증 서버
 
@@ -228,11 +226,15 @@ OAuth2는 ***토큰 기반의*** 인증 및 권한 부여 프로토콜입니다.
 - **Resource Owner Password Credentials Grant**: 사용자 이름과 비밀번호를 사용하여 액세스 토큰을 얻는 방식
 - **Client Credentials Grant**: 클라이언트 애플리케이션이 자신의 자격 증명을 사용하여 액세스 토큰을 얻는 방식
 
+---
+
 ### 2.3 JWT 개요
 
 #### 2.3.1 JWT란?
 
 JWT(JSON Web Token)는 JSON 형식의 자가 포함된 토큰으로, 클레임(claim)을 포함하여 사용자에 대한 정보를 전달합니다. JWT는 세 부분으로 구성됩니다: 헤더, 페이로드, 서명. JWT는 암호화를 통해 데이터의 무결성과 출처를 보장합니다.
+
+--- 
 
 ### 2.4 Auth 서비스와 Gateway 통합
 
