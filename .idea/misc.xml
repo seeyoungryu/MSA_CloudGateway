@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/auth" />
+    <file type="web" url="file://$PROJECT_DIR$/gateway" />
     <file type="web" url="file://$PROJECT_DIR$/order" />
     <file type="web" url="file://$PROJECT_DIR$/product" />
     <file type="web" url="file://$PROJECT_DIR$/server" />
+    <file type="web" url="file://$PROJECT_DIR$/../com.spring-cloud.eureka.client.auth" />
+    <file type="web" url="file://$PROJECT_DIR$/../com.spring-cloud.eureka.client.gateway" />
   </component>
   <component name="ProjectRootManager">
     <output url="file://$PROJECT_DIR$/out" />
