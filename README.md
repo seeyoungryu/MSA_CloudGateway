@@ -1,10 +1,8 @@
 # 📘 API Gateway 구현을 위한 레포지토리
 
-### Spring Cloud Gateway, Eureka, Auth, Order, 그리고 Product 서비스로 구성된 마이크로서비스 아키텍처 구현 프로젝트
-클라이언트 요청은 게이트웨이를 통해 적절한 백엔드 서비스로 라우팅되며, 각 서비스는 Eureka 서버를 통해 서비스 디스커버리 및 로드 밸런싱을 처리합니다.
-
-### 보안 구성
-클라우드 게이트웨이의 Pre 필터에서 JWT 인증을 진행하고, Auth 서비스에서 로그인 기능을 간단하게 구현합니다.
+> ### Spring Cloud Gateway, Eureka, Auth, Order, 그리고 Product 서비스로 구성된 마이크로서비스 아키텍처 구현 프로젝트
+- 클라이언트 요청은 게이트웨이를 통해 적절한 백엔드 서비스로 라우팅되며, 각 서비스는 Eureka 서버를 통해 서비스 디스커버리 및 로드 밸런싱을 처리합니다.
+- 보안 구성:  클라우드 게이트웨이의 Pre 필터에서 JWT 인증을 진행하고, Auth 서비스에서 로그인 기능을 간단하게 구현합니다.
 ---
 
 ![서비스 구성도](https://github.com/user-attachments/assets/8da3878c-1c2b-41ca-9a07-a392a7fc37fc)
