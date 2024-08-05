@@ -139,9 +139,7 @@ public class LocalJwtAuthenticationFilter implements GlobalFilter {
  * - `parseSignedClaims(token)`: 주어진 JWT 토큰을 파싱하고 서명을 검증합니다.
  * <p>
  * 이 과정은 주어진 토큰이 유효한지 확인하는 과정입니다. 만약 토큰이 변조되었거나 유효하지 않다면, 예외가 발생합니다.
- * <p>
- * <p>
- * <p>
+ * ---
  * ### 전체 코드 흐름
  * 1. **토큰 추출**: `extractToken` 메서드를 사용하여 요청 헤더에서 JWT 토큰을 추출합니다.
  * 2. **토큰 검증**: `validateToken` 메서드를 사용하여 추출한 토큰의 유효성을 검증합니다.
